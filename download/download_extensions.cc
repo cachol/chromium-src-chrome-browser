@@ -69,7 +69,6 @@ static const struct Executables {
 #endif
 #if !defined(OS_CHROMEOS) && !defined(OS_ANDROID)
   // Relating to PDF.
-  { "pdf", ALLOW_ON_USER_GESTURE },
   { "pdfxml", ALLOW_ON_USER_GESTURE },
   { "mars", ALLOW_ON_USER_GESTURE },
   { "fdf", ALLOW_ON_USER_GESTURE },
